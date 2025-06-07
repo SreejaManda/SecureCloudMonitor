@@ -1,0 +1,13 @@
+# Create .gitignore file with Django-specific exclusions
+echo "# Python" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.py[cod]" >> .gitignore
+echo "*.sqlite3" >> .gitignore
+echo ".env" >> .gitignore
+echo "# Django" >> .gitignore
+echo "db.sqlite3" >> .gitignore
+echo "media/" >> .gitignore
+echo "staticfiles/" >> .gitignore
+echo "# IDE" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore

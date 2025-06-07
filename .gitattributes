@@ -1,0 +1,9 @@
+*.py text
+*.html text
+*.js text
+*.css text
+*.java text
+*.txt text
+*.bat text
+*.png binary
+*.jpg binary
